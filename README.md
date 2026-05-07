@@ -1,5 +1,5 @@
 # RAG Customer Support Bot
-### Built with LangChain · ChromaDB · LangGraph · Groq (LLaMA 3)
+### Built with LangChain · ChromaDB · LangGraph · Groq (LLaMA 3.1)
 
 ---
 
