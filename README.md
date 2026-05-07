@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ### Step 3 — Add your PDF
 - Place your PDF inside the `data/` folder
 - Rename it to `your_document.pdf`
-  (or edit `PDF_PATH` in `1_ingest.py`)
+  (or edit `PDF_PATH` in `ingest.py`)
 
 ---
 
@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### First time only — ingest your PDF:
 ```bash
-python 1_ingest.py
+python ingest.py
 ```
 This creates the `chroma_db/` folder with your embeddings.
 
@@ -81,7 +81,7 @@ rag-support-bot/
 
 ```
 PDF
- └─[1_ingest.py]─→ Chunks ─→ Embeddings ─→ ChromaDB
+ └─[ingest.py]─→ Chunks ─→ Embeddings ─→ ChromaDB
                                                 │
 User Query ─→ Embed Query ─→ ChromaDB Search ──┘
                                   │
@@ -106,7 +106,7 @@ User Query ─→ Embed Query ─→ ChromaDB Search ──┘
 
 ## Groq Model Options
 
-Edit `GROQ_MODEL` in `3_graph.py`:
+Edit `GROQ_MODEL` in `graph.py`:
 
 | Model | Speed | Quality |
 |---|---|---|
